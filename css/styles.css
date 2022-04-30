@@ -1,6 +1,7 @@
 body{
     margin: 0;
     text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Verdana, sans-serif;
 }
 h1{
     /* width: 10%; */
@@ -12,7 +13,8 @@ h1{
 
 .top-container{
     background-color: #E4F9F5;
- 
+    position: relative;
+    padding-top: 100px; ;
   
 }
 .middle-container{
@@ -32,11 +34,14 @@ h1{
     text-decoration: underline;
 }
 .top-cloud{
-    position: relative;
-    left:200px;
-    margin-top: 50px;
+    position: absolute;
+    /* left:200px; */
+    /* margin-top: 50px; */
+    top: 50px;
+    right: 400px;
 }
 .bottom-cloud{
     position: absolute;
-    margin-bottom: 100px;
+    left: 400px;
+    margin-bottom: 300px;
 }
