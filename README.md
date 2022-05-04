@@ -1,2 +1,2 @@
 # css-my-site
-#Angela Yu's Course stduy
+#Angela Yu's Course study
